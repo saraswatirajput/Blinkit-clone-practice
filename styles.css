@@ -1,0 +1,237 @@
+* {
+  font-family: poppins;
+}
+
+
+
+.categories {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-style: solid;
+  border-color: rgb(226, 225, 225);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 0.5px;
+}
+
+.cats {
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  padding: 15px;
+  font-weight: 300;
+  margin: 0px;
+  transition: background-color 0.15s;
+  text-align: center;
+  text-size-adjust: 100%;
+}
+
+.cats:hover {
+  background-color: rgba(128, 128, 128, 0.076);
+}
+
+.listandproducts {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.product-list {
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-color: rgb(226, 225, 225);
+  border-width: 0.5px;
+  border-top: 0px;
+}
+
+.products {
+  flex: 4;
+  border-style: solid;
+  border-color: rgb(226, 225, 225);
+  border-width: 0.5px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.product-header {
+  background-color: white;
+  display: flex;
+  padding-right: 2%;
+  padding-left: 2%;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(226, 225, 225);
+  border-width: 0.5px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.product-header-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sort {
+  justify-content: end;
+  font-size: 12px;
+  color: grey;
+  min-width: fit-content;
+}
+
+.filter {
+  color: rgb(49 134 22);
+  padding: 6px;
+  border-radius: 5px;
+  border-color: rgb(226, 225, 225);
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.imgandname {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(226, 225, 225);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 0.5px;
+  padding: 15px;
+}
+
+.imgandname:hover {
+  background-color: rgba(48, 134, 22, 0.12);
+  border-style: solid;
+  border-color: rgb(49 134 22);
+  border-width: 4px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+}
+
+.list-img {
+  height: 40px;
+  width: 40px;
+  object-position: top;
+  object-fit: cover;
+  padding-right: 10px;
+}
+
+.list-product-name {
+  font-size: 14px;
+}
+
+.product-cards {
+  background-color: rgb(244, 246, 251);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-cards {
+  padding: 8px;
+  flex: 1 1 1 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 8px;
+  justify-content: stretch;
+}
+
+.main-card {
+  max-width: 177px;
+  max-height: fit-content;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(226, 225, 225);
+  border-width: 0.5px;
+  border-right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delivery-time {
+  display: flex;
+  align-items: center;
+  background-color: rgb(244, 246, 251);
+  border-radius: 5px;
+  max-width: fit-content;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.clock-img {
+  height: 11px;
+}
+
+.clock-text {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 9px;
+}
+
+.card-img {
+  height: 140px;
+  width: 140px;
+}
+
+.product-name {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px;
+  width: 100%;
+}
+
+.weight {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 14px;
+  margin-top: 10px;
+}
+
+.price-1 {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+}
+
+.price-2 {
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0px;
+  margin: 0px;
+  color: grey;
+}
+
+.priceandadd {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+}
+
+.add-btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 6px;
+  border-width: 0.5px;
+  border-color: rgb(49 134 22);
+  color: rgb(49 134 22);
+  background-color: rgba(48, 134, 22, 0.12);
+}
